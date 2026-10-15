@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import { sampleRUM } from '../../scripts/lib-franklin.js';
 import decorateFieldset from './fieldset.js';
 
