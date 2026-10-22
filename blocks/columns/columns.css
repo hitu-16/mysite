@@ -30,4 +30,18 @@
     flex: 1;
     order: unset;
   }
+
+  .columns img {
+    width: 100%;
+    display: block;
+    max-height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 700px) {
+  .columns img {
+    max-height: 240 px;;
+  }
 }
